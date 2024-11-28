@@ -67,4 +67,11 @@ void timedControl() {
 void loop() {
   toggleButton(); // Controlla il pulsante
   timedControl(); // Controlla l'attivazione/disattivazione temporale
+  delay (200);
+  /*DateTime now = rtc.now();
+  Serial.print("Ora attuale: ");
+  Serial.print(now.hour());
+  Serial.print(":");
+  Serial.println(now.minute());
+  */
 }
